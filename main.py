@@ -29,6 +29,7 @@ def job():
         send_message(message)
 
 if __name__ == "__main__":
+    import time
     while True:
         job()
         time.sleep(config.CHECK_INTERVAL)
